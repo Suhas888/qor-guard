@@ -1,0 +1,18 @@
+{
+ "fmax": {
+  "clk$SB_IO_IN_$glb_clk": {
+   "achieved": 74.25,
+   "constraint": 12
+  }
+ },
+ "utilization": {
+  "ICESTORM_LC": {
+   "available": 7680,
+   "used": 2640
+  },
+  "ICESTORM_RAM": {
+   "available": 32,
+   "used": 0
+  }
+ }
+}

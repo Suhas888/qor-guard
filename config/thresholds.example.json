@@ -1,0 +1,10 @@
+{
+ "_note": "Examples only: not validated recommendations or statistically calibrated thresholds. max_increase_pct for lower-is-better metrics, max_decrease_pct for higher-is-better. 'fmax_min[*' matches every clock.",
+ "rules": [
+  {"metric": "lut4", "max_increase_pct": 5.0, "required": true},
+  {"metric": "ff", "max_increase_pct": 5.0, "required": true},
+  {"metric": "lc", "max_increase_pct": 5.0, "required": true},
+  {"metric": "fmax_min[*", "max_decrease_pct": 10.0, "required": true},
+  {"metric": "fmax_median[*", "max_decrease_pct": 10.0, "required": false}
+ ]
+}

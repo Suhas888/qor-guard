@@ -1,0 +1,8 @@
+# Reports and run records hold absolute local paths.
+runs/
+.qorguard/
+qor_report.md
+demo/output/
+__pycache__/
+# Maintainer-only evaluation data; never distribute.
+tests/private_evaluation/

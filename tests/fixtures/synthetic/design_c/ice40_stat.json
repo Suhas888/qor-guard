@@ -1,0 +1,28 @@
+{
+   "creator": "Yosys 0.70+255 (synthetic test fixture, not tool output)",
+   "invocation": "stat -json ",
+   "modules": {
+      "\\synthetic_top": {
+         "num_cells": 420,
+         "num_submodules": 0,
+         "num_cells_by_type": {
+            "$scopeinfo": 2,
+            "SB_CARRY": 18,
+            "SB_DFF": 40,
+            "SB_DFFESR": 20,
+            "SB_LUT4": 340
+         }
+      }
+   },
+   "design": {
+      "num_cells": 420,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+         "$scopeinfo": 2,
+         "SB_CARRY": 18,
+         "SB_DFF": 40,
+         "SB_DFFESR": 20,
+         "SB_LUT4": 340
+      }
+   }
+}

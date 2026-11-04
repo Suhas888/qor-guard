@@ -1,0 +1,45 @@
+ Yosys 0.70+255 (synthetic test fixture, not tool output)
+
+1. Executing script.
+
+1.1. Printing statistics.
+
+=== synthetic_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       10 wires
+       10 wire bits
+     3332 cells
+        8   $scopeinfo
+      180   SB_CARRY
+      300   SB_DFF
+      240   SB_DFFESR
+        4   SB_DFFSR
+     2600   SB_LUT4
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+        8 synthetic_top
+
+        +----------Count including submodules.
+        | 
+       10 wires
+       10 wire bits
+        - memories
+        8 cells
+        8   $scopeinfo
+     3324 submodules
+      180   SB_CARRY
+      300   SB_DFF
+      240   SB_DFFESR
+        4   SB_DFFSR
+     2600   SB_LUT4
+
+1.2. Executing CHECK pass (checking for obvious problems).
+Checking module synthetic_top...
+
+End of script.
+ Yosys 0.70+255 (synthetic test fixture, not tool output)

@@ -1,0 +1,36 @@
+{
+ "manifest_version": 1,
+ "device": "iCE40 HX8K",
+ "yosys_version": "0.70+255",
+ "nextpnr_version": "0.11.1-83",
+ "required_clocks_mhz": {
+  "clk$SB_IO_IN_$glb_clk": 60.0
+ },
+ "runs": [
+  {
+   "report": "../tests/fixtures/synthetic/design_a/pnr_report_s1.json",
+   "seed": 1,
+   "status": "success"
+  },
+  {
+   "report": "../tests/fixtures/synthetic/design_a/pnr_report_s2.json",
+   "seed": 2,
+   "status": "success"
+  },
+  {
+   "report": "../tests/fixtures/synthetic/design_a/pnr_report_s3.json",
+   "seed": 3,
+   "status": "success"
+  },
+  {
+   "report": "../tests/fixtures/synthetic/design_a/pnr_report_s4.json",
+   "seed": 4,
+   "status": "success"
+  },
+  {
+   "report": "../tests/fixtures/synthetic/design_a/pnr_report_s5.json",
+   "seed": 5,
+   "status": "success"
+  }
+ ]
+}

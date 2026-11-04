@@ -1,0 +1,21 @@
+ Yosys 0.70+255 (synthetic test fixture, not tool output)
+
+1. Executing script.
+
+1.1. Printing statistics.
+
+=== generic_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       10 wires
+      200 cells
+       40   $_AND_
+        2   $_MUX_
+       90   $_NAND_
+        3   $_NOT_
+        5   $_OR_
+       60   $_XOR_
+
+1.2. Executing CHECK pass (checking for obvious problems).
+Checking module generic_top...

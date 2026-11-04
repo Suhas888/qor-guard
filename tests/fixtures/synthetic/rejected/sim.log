@@ -1,0 +1,2 @@
+DONE cycles=1000 compared=1000 errors=0
+sim_tb.v:10: $finish called at 2000 (1ps)
