@@ -25,6 +25,8 @@ UP5K support has limited internal evaluation and is not yet covered by the repro
 
 See `LIMITATIONS.md` before relying on a result.
 
+New here? Start with `docs/QUICKSTART.md`. A synthetic example and an evaluation checklist are in `docs/evaluation/README.md`.
+
 ## Requirements
 
 Python standard library only, with no network access or account. **Tested only on Python 3.14.4 on Windows 11.** That is the tested version, not an established minimum. Linux, macOS and other Python versions are untested.
@@ -129,6 +131,9 @@ Exit 0 means the configured checks were met. It does not prove that anything imp
 
 ## Documentation
 
+- `docs/QUICKSTART.md`: first-time setup and a synthetic example
+- `docs/evaluation/README.md`: expected example results and a tester checklist
+- `docs/release-notes/v0.3.0.md`: release notes for v0.3.0
 - `SUPPORTED_FORMATS.md`: what is and is not parsed
 - `LIMITATIONS.md`: known limits
 - `CHANGELOG_0.3.md`: changes, including one intentional exit-code change from 0.2.0
