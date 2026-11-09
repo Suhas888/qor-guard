@@ -1,6 +1,6 @@
 # Evaluation kit
 
-**Everything here is a synthetic example.** The reports come from the invented fixtures in `tests/fixtures/synthetic/`, so they describe no real design and aren't validation results.
+**The example reports here are synthetic.** They come from the invented fixtures in `tests/fixtures/synthetic/`, so they describe no real design and aren't validation results.
 
 | File | What it is |
 |---|---|
@@ -21,3 +21,7 @@ Both results were confirmed on Windows 11 in PowerShell, cmd and bash. Your time
 
 ## How to reproduce
 Follow steps 1 to 3 of `docs/QUICKSTART.md`. For the second example, run the "Capture with a manifest" commands in `README.md`.
+
+## External evaluations
+
+- [`ayoub-achour-spi-fpga-case-study.md`](ayoub-achour-spi-fpga-case-study.md): Ayoub Achour's evaluation on his spi-fpga-core project (iCE40 UP5K only). The figures are his own, not synthetic, and weren't run by the maintainer. Read the limitations on that page before using them.

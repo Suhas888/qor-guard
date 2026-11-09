@@ -17,7 +17,7 @@ The application code is the same as tag `v0.3.0`. This guide and `docs/evaluatio
 python -I -B -m unittest discover -s tests -t .
 ```
 
-The output should end with `Ran 258 tests` and `OK (skipped=3)`. The 3 skipped tests need private evaluation data that isn't distributed, so they aren't failures.
+The output should end with `Ran 259 tests` and `OK (skipped=3)`. The 3 skipped tests need private evaluation data that isn't distributed, so they aren't failures.
 
 If `python` isn't found, try `py` on Windows or `python3` elsewhere. Platforms other than Windows are untested.
 
